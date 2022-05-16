@@ -1,0 +1,50 @@
+.address-nav,
+.address-nav-secondary {
+margin: 0;
+padding: 0;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.address-nav-address .link {
+    color: var(--primary-light-color);
+
+margin-bottom: 9px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-nav-secondary .link {
+    color: var(--light-color);
+}
+
+.address-nav .link:focus,
+.address-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.address-nav-secondary .link:focus,
+.address-nav-secondary .link:hover {
+    color: var(--accent-color);
+}
+
+.address-nav-address .link:last-child {
+margin-bottom: 0;
+}
+
+.address-nav,
+.address-nav-secondary {
+font-size: normal;
+}
+
+.address-box {
+    flex-grow: 1;
+}
