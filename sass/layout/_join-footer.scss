@@ -36,13 +36,20 @@ margin-left: 10px;
 }
 
 .footer-section-join {
-margin-left: auto;
+display: block;
 align-items: center;
 justify-content: center;
-display: block;
-margin-left: 70px;
+margin: 0;
+
+@media screen and (min-width: 1200px) {
+    margin-left: 70px;
+}
 }  
 
 .join-list {
 display: flex;
+
+@media screen and (max-width: 767px) {
+    justify-content: center;
+}
 }

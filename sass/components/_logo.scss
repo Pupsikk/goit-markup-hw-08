@@ -9,7 +9,7 @@ color: var(--accent-color);
 }
 
 
-.header__logo.dark {
+.logo__dark {
 color: var(--primary-dark-color)
 }
 
@@ -25,4 +25,8 @@ color: var(--primary-light-color);
 .header-logo.link {
     margin-right: 93px;
     display: inline-block;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+margin-right: 88px;
+        }
 }
