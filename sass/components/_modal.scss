@@ -49,10 +49,14 @@ padding: 40px 40px;
 }
 
 .close-btn {
+display: flex;
 position: absolute;
+align-items: center;
+justify-content: center;
 top: 8px;
 right: 8px;
 cursor: pointer;
+
 
 width: 30px;
 height: 30px;
