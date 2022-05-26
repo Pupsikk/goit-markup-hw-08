@@ -46,10 +46,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-box {
-    margin-bottom: 60px;
-
-    @media screen and (min-width: 1200px) {
-        margin: 0;
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
     }
 }
 

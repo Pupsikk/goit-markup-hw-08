@@ -7,6 +7,16 @@ text-decoration: none;
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+@media screen and (min-width: 768px) {
+    height: 100%;
+flex-direction: column;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: flex;
+        flex-direction: column
+            }
 }
 
 .card-title {
@@ -17,13 +27,9 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-overflow: hidden;
-text-overflow: ellipsis;
 
 color: var(--title-text-color);
-white-space: nowrap;
-margin-top: 0;
-margin-bottom: 4px;
+
 }
 
 .card-text {
@@ -37,18 +43,22 @@ color: var(--primary-text-color);
 }
 
 .card-net.list {
-padding-left: 0;
-padding-right: 0;
-margin-top: 50px;
+    display: flex;
+margin-top: 40px;
 margin-bottom: -30px;
-// display: flex;
-list-style: none;
 flex-wrap: wrap;
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+margin-top: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 50px;
+            }
 }
 
 .card-flex {
 display: inline-block;
-// margin-right: 30px;
 margin-bottom: 30px;
 width: calc((100% - 1 * 30px) / 2);
     
@@ -68,14 +78,12 @@ width: calc((100% - 1 * 30px) / 2);
     @media screen and (min-width: 768px) {
         &:not(:nth-child(2n)) {
             margin-right: 30px;
-            margin-left: -4px;
         }
     }
 
     @media screen and (min-width: 1199px) {
         width: calc((100% - 2 * 30px) / 3);
         margin-right: 30px;
-        margin-left: -4px;
         &:nth-child(3n) {
             margin-right: 0;
         }
@@ -87,5 +95,6 @@ padding-left: 24px;
 padding-right: 24px;
 padding-bottom: 20px;
 padding-top: 20px;
-border: 1px solid #EEEEEE
+border: 1px solid var(--btn-border-portfolio);
+flex-grow: 1;
 }

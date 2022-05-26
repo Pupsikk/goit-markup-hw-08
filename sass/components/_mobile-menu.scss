@@ -60,6 +60,11 @@ background: var(--primary-light-color);
 }
 }
 
+.link.current-mob {
+    position: relative;
+    color: var(--accent-color);
+}
+
 .menu-mob-site {
     margin-right: auto;
     flex-grow: 1;

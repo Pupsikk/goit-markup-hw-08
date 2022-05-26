@@ -6,6 +6,9 @@
         margin-left: 93px;
     }
 
+    @media screen and (max-width: 1199px) {
+        margin-top: 60px;
+    }
 }
 
 .subscription-title {
@@ -17,10 +20,6 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-light-color);
-
-@media screen and (max-width: 767px) {
-    margin-top: 60px;
-}
 }
 
 .subscription-leble {

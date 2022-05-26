@@ -79,7 +79,13 @@ color: var(--title-text-color);
         @media screen and (min-width: 1200px) {
             bottom: -2px;
         }
+
+        @media screen and (max-width: 767px) {
+            color: var(--accent-color);
+            width: 0;
+        }
 }
+
 
 .address__nav__connection {
 align-items: center;

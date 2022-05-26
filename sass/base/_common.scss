@@ -12,6 +12,18 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
     }
+
+    &.button-card {
+        @media screen and (max-width: 767px) {
+            padding-top: 120px;
+            }
+    }
+
+    &.hero {
+        @media screen and (max-width: 767px) {
+            padding-top: 178px;
+            }
+    }
 }
 
 .link {
@@ -37,4 +49,3 @@ line-height: 1.9;
 display: flex;
 text-align: center;
 }
-
